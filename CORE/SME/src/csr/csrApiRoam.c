@@ -19045,7 +19045,7 @@ eHalStatus csrRoamOffloadScan(tpAniSirGlobal pMac, tANI_U8 sessionId,
                        *ChannelList,
                        num_channels);
 	    }
-              ChannelList++;
+            ChannelList++;
         }
         pRequestBuf->ConnectedNetwork.ChannelCount = num_channels;
         /* If the profile changes as to what it was earlier, inform the
